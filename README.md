@@ -78,3 +78,17 @@ npm run build
 ## 注意事項
 
 目前資料只儲存在使用者瀏覽器本機，不同裝置之間不會自動同步。不同瀏覽器或網站來源亦不共用資料；清除網站儲存資料會移除本機保存內容。
+
+## 安裝為 App（PWA）
+
+將此版本部署至原本 Vercel HTTPS 網址後，可安裝 MY SPACE：
+
+- **Windows / Chrome**：點網址列的安裝圖示，或選單中的「將網頁安裝為應用程式」。
+- **Android / Chrome**：開啟選單，選擇「安裝應用程式」或「加入主畫面」。
+- **iPhone / Safari**：分享 →「加入主畫面」→「加入」；若有「作為 Web App 開啟」選項，保持開啟。
+
+首次需連網開啟，待靜態資源快取完成，之後可離線開啟 App shell。資料仍僅保存在本機，沒有雲端同步。Chrome 在相同網址與瀏覽器設定檔下通常沿用相同儲存空間；iPhone 主畫面 App 可能與 Safari 分開儲存，不保證自動帶入原有資料。
+
+PWA 由 `vite-plugin-pwa` 建置，manifest 設定在 `vite.config.js`，輸出至 `dist/manifest.webmanifest`；Service Worker 輸出為 `dist/sw.js`，由 `src/pwa.js` 在正式版註冊。開發模式不註冊，可用 `npm run build` 後接 `npm run preview` 測試。
+
+使用 `autoUpdate` 自動取得新版靜態快取，回到頁面或恢復網路時檢查更新；長時間開啟則每小時檢查。為保護正在輸入的內容，不強制重載頁面；新版完成後於下次開啟或重新整理使用。`vercel.json` 避免 Service Worker、manifest 與入口 HTML 被長期 HTTP 快取。既有 localStorage 與 IndexedDB 不會由 Service Worker 清除。
