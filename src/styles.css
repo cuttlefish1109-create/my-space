@@ -1,0 +1,99 @@
+:root{font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;color:#29352f;background:#f5f4ef;font-synthesis:none;font-size:16px;--line:#cfD1c8;--muted:#697169}*{box-sizing:border-box}body{margin:0}button,input,textarea,select{font:inherit}a{color:inherit;text-decoration:none}button,a,input,textarea,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer;border:1px solid var(--line);background:transparent;padding:10px 15px;color:inherit}button:hover{background:#e7e9df}a:hover{color:#63765b}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid #52684b;outline-offset:4px}nav{height:82px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 5%;gap:24px}nav .brand{font-size:27px;font-weight:800;letter-spacing:-3px}.brand span{font-weight:400;margin:0 7px}nav div{display:flex;gap:35px;font-size:12px;letter-spacing:1px}.semester{font-size:13px;color:var(--muted)}main{max-width:1500px;margin:auto;padding:0 5%}h1,h2,h3,p{margin-top:0}h2{font-size:14px;letter-spacing:1.5px;font-weight:600}h3{font-size:12px;letter-spacing:1px;display:flex;justify-content:space-between;margin-bottom:25px}h3>span:last-child{color:var(--muted)}.home-title{display:flex;justify-content:space-between;align-items:center;padding:45px 0 35px}.home-title h1{font-size:clamp(48px,6.7vw,100px);letter-spacing:-5px;line-height:1;margin:0;font-weight:500}.home-title h1>span{font-size:20px;vertical-align:top;letter-spacing:0;display:inline-block;margin:7px}.home-title>div{text-align:right;line-height:1.8}.home-title small{font-size:11px;letter-spacing:2px}.today{background:#e7eadf;border-top:2px solid #354333;display:grid;grid-template-columns:1fr 1.6fr 1.3fr;margin-bottom:48px;padding:30px;gap:32px}.today-date{border-right:1px solid #c4cbbd}.today-date p{font-size:46px;line-height:1.1;letter-spacing:-2px;margin:25px 0}.today-date em{font-style:normal;font-size:36px;color:#68755e}.today-date>span{font-size:13px;color:#68755e}.today-classes a{display:grid;grid-template-columns:1fr 20px;gap:8px;border-bottom:1px solid #c4cbbd;padding:0 0 16px;margin-bottom:16px}.today-classes time{font-size:13px;grid-column:1/-1;color:#64705e}.today-classes strong{font-size:16px;font-weight:500}.today-tasks{border-left:1px solid #c4cbbd;padding-left:28px}.today-tasks label{display:flex;gap:10px;margin:18px 0;align-items:flex-start}.today-tasks small{display:block;width:fit-content;margin-top:9px}.text-button{font-size:12px;letter-spacing:1px;border:0;border-bottom:1px solid;padding:10px 0}.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:22px}.section-head h2{margin:0}.section-head>span{font-size:12px;color:var(--muted)}section{margin-bottom:48px}.timetable{display:grid;grid-template-columns:65px repeat(5,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.time-axis{position:relative;font-size:11px;color:var(--muted)}.time-axis>span{position:absolute;left:0}.day-heading{height:45px;padding:15px;font-size:12px;letter-spacing:1px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}.day-heading>span{color:#858d80}.is-today{background:#dce3d3}.day-column{border-left:1px solid var(--line)}.day-body{height:585px;position:relative;background:repeating-linear-gradient(to bottom,transparent 0,transparent 51px,#dedfd8 51px,#dedfd8 52px)}.course-block{position:absolute;left:5px;right:5px;background:#e1e6d9;border-left:2px solid #8b9b7d;padding:10px;display:flex;flex-direction:column;gap:8px;overflow:auto}.course-block>span{font-size:11px;color:#576250}.course-block strong{font-size:14px;font-weight:500;line-height:1.5}.course-block small{font-size:11px;color:#68705f;margin-top:auto}.color-1{background:#eee5d7;border-color:#b49e7e}.color-2{background:#e0e6e6;border-color:#829a9d}.color-3{background:#e6e1e9;border-color:#a291aa}.day-tabs,.mobile-weekend{display:none}.primary{background:#2e3c31;color:#fff;border-color:#2e3c31;font-size:13px;letter-spacing:.7px}.primary:hover{background:#4c6048}.count{color:#8b9486;font-size:12px;margin-left:10px}.task-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid var(--line)}.filters{display:flex;gap:20px;flex-wrap:wrap}.filters button{border:0;padding:12px 0;font-size:12px;letter-spacing:.5px;border-bottom:2px solid transparent;color:#768070}.filters button.active{color:#28372f;border-bottom-color:#28372f}.show-done{font-size:12px;display:flex;align-items:center;gap:6px;white-space:nowrap}input[type=checkbox]{accent-color:#52654b;width:17px;height:17px;flex-shrink:0;cursor:pointer}.task-row{display:flex;align-items:center;gap:20px;border-bottom:1px solid var(--line);padding:18px 0}.task-title{flex:1;min-width:0;text-align:left;border:0;padding:0;background:none!important}.task-title strong{font-size:16px;font-weight:500;display:block;overflow-wrap:anywhere}.task-title>span{display:block;font-size:12px;color:var(--muted);margin-top:7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:650px}.tag{font-size:10px;letter-spacing:.7px;padding:5px 8px;white-space:nowrap}.school{background:#dfe6d7;color:#445539}.freelance{background:#e8dfd3;color:#716047}.classRep{background:#e0e1eb;color:#5c5d78}.personal{background:#eadedf;color:#81595e}.task-row time{font-size:13px;min-width:92px}.overdue{color:#a35443}.delete{border:0;padding:6px;font-size:21px;color:#80877b}.completed .task-title strong{text-decoration:line-through;color:#8d9589}.empty{color:var(--muted);font-size:14px;padding:15px 0;line-height:1.7}.project-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;border-top:1px solid var(--line);padding-top:24px}.project-link{padding:16px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;font-size:14px}.project-link>span{color:#7a8571}footer{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:26px 0 35px;font-size:11px;color:var(--muted);letter-spacing:1px}footer strong{color:#34402f}.back{display:inline-block;margin-top:35px;font-size:12px;letter-spacing:1px}.detail-title{padding:40px 0 30px}.detail-title h1{font-size:42px;font-weight:500;margin:20px 0}.detail-title p{letter-spacing:2px;font-size:14px;color:var(--muted)}.detail-fields,.progress-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:25px;border-top:1px solid var(--line);padding-top:25px}label{font-size:14px}label>input:not([type=checkbox]),label>select,label>textarea{display:block;margin-top:10px;width:100%}input:not([type=checkbox]),textarea,select{border:1px solid #bdc4b7;background:#fbfbf7;color:#29352f;padding:12px;border-radius:0;max-width:100%}textarea{width:100%;resize:vertical;line-height:1.8}.notes{background:repeating-linear-gradient(#f5f4ef 0,#f5f4ef 31px,#daddd3 32px);line-height:32px;border:0}section>small{font-size:12px;color:var(--muted)}dialog{width:520px;max-width:calc(100% - 32px);max-height:90vh;border:1px solid #bfc5b8;background:#f5f4ef;padding:30px;color:inherit}dialog::backdrop{background:#1f302e66}dialog form>label{display:block;margin:25px 0}dialog .section-head button{border:0;font-size:24px;padding:0}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.form-actions{display:flex;justify-content:flex-end;gap:10px}.error{background:#f2d9cc;padding:15px;font-size:14px}
+@media(min-width:1500px){.course-block strong{font-size:16px}}
+@media(max-width:900px){.today{grid-template-columns:1fr 1.6fr}.today-tasks{grid-column:1/-1;border-left:0;border-top:1px solid #c4cbbd;padding:20px 0 0}.today-tasks label{display:inline-flex;margin-right:25px}.course-block{padding:6px}.project-grid{gap:20px}.task-row{gap:10px}.filters{gap:14px}}
+@media(max-width:640px){nav{height:65px;padding:0 5%}nav div{gap:15px;font-size:10px}.semester{display:none}.home-title{padding:30px 0}.home-title h1{font-size:46px;letter-spacing:-3px}.home-title h1>span{font-size:12px;margin:3px}.home-title>div{font-size:13px}.home-title small{font-size:8px;letter-spacing:0}.today{padding:22px;display:block}.today-date{border:0;margin-bottom:30px}.today-date p{font-size:38px;margin:20px 0}.today-date p br{display:none}.today-date em{margin-left:12px;font-size:30px}.today-date>span{display:none}.today-tasks label{display:flex}.section-head>span{display:none}.section-head h2{font-size:12px}.day-tabs{display:flex;justify-content:space-between;margin-bottom:16px}.day-tabs button{padding:10px 6px;font-size:11px;border:0}.day-tabs .active{background:#293c30;color:white}.timetable{grid-template-columns:50px 1fr}.day-column{display:none}.day-column.selected{display:block}.day-column .course-block{padding:12px}.course-block strong{font-size:16px}.mobile-weekend{display:block}.task-toolbar{align-items:flex-start;flex-direction:column;gap:8px;padding-bottom:12px}.filters{width:100%;justify-content:space-between;gap:6px}.filters button{font-size:10px}.task-row{display:grid;grid-template-columns:20px 1fr auto;gap:10px;padding:16px 0}.task-row>input{grid-row:1/3}.task-title{grid-column:2}.task-row .tag{grid-column:2;justify-self:start;grid-row:2}.task-row time{grid-column:3;grid-row:2;font-size:11px;min-width:0}.delete{grid-column:3;grid-row:1;justify-self:end}.project-grid{grid-template-columns:1fr;gap:30px}.project-grid h3{margin-bottom:10px}footer>span:last-child{display:none}.detail-title h1{font-size:30px}.detail-fields{grid-template-columns:1fr 1fr}.progress-grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}dialog{padding:22px}section{margin-bottom:36px}}
+/* Simple course resources and exam reminders, using the existing planner theme. */
+.home-title { padding: 28px 0; }
+.home-title h1 { font-size: clamp(40px, 4.8vw, 68px); letter-spacing: -3px; }
+.project-switcher { width: 190px; font-size: 14px; padding: 9px; background: transparent!important; }
+.file-row, .topic-row { display: flex; gap: 16px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.file-name { flex: 1; min-width: 0; padding: 8px 0; border: 0; text-align: left; }
+.file-name strong { display: block; overflow-wrap: anywhere; font-size: 16px; font-weight: 500; }
+.file-name small { display: block; font-size: 13px; color: var(--muted); margin-top: 8px; }
+.exam-row { display: grid; grid-template-columns: 150px 1fr auto auto; align-items: center; gap: 22px; border-bottom: 1px solid var(--line); padding: 20px 0; }
+.exam-row.reminder { border-left: 3px solid #82916e; padding-left: 16px; background: #e7eadf55; }
+.countdown { font-size: 14px; color: var(--muted); letter-spacing: .7px; }
+.reminder .countdown { color: #3c5134; font-weight: 700; }
+.exam-content { text-align: left; border: 0; padding: 0; min-width: 0; background: transparent!important; }
+.exam-content small { font-size: 13px; color: var(--muted); display: block; margin-bottom: 7px; }
+.exam-content strong { display: block; font-size: 18px; font-weight: 500; overflow-wrap: anywhere; }
+.exam-content p { font-size: 14px; color: var(--muted); white-space: pre-wrap; overflow-wrap: anywhere; margin: 8px 0 0; }
+.exam-row time { font-size: 14px; }
+.past-exam { opacity: .65; }
+.topic-row input { flex: 1; min-width: 0; }
+.topic-row button { flex-shrink: 0; }
+.meeting-date { max-width: 280px; }
+button:disabled { cursor: default; opacity: .5; }
+.tag { font-size: 12px; }
+.filters button, .primary { font-size: 14px; }
+.task-row time { font-size: 14px; }
+.day-tabs button { font-size: 12px; }
+@media(max-width:640px) {
+  nav { height: auto; min-height: 70px; flex-wrap: wrap; gap: 12px; padding-top: 12px; padding-bottom: 12px; }
+  nav div { font-size: 12px; gap: 16px; }
+  .project-switcher { width: 100%; }
+  .home-title h1 { font-size: 40px; }
+  .home-title small { font-size: 10px; }
+  .exam-row { grid-template-columns: 1fr auto; gap: 10px 12px; }
+  .countdown { grid-column: 1; }
+  .exam-content { grid-column: 1; grid-row: 2; }
+  .exam-row time { grid-column: 2; grid-row: 1; font-size: 13px; }
+  .exam-row .delete { grid-column: 2; grid-row: 2; justify-self: end; }
+  .filters { flex-wrap: wrap; justify-content: flex-start; gap: 14px; }
+  .filters button { font-size: 12px; }
+  .task-row time { font-size: 13px; }
+  .course-block small { display: none; }
+}
+@media(max-width:640px) {
+  .timetable.no-day { display: none; }
+  .section-head .primary { white-space: nowrap; padding: 10px; }
+  .section-head h2 { line-height: 1.6; }
+}
+
+/* Save feedback stays quiet and leaves the editor usable. */
+.save-status { display:flex; align-items:center; gap:16px; margin:16px 0; padding:10px 14px; border-left:2px solid #9a9675; background:#ecebdF; color:#5a5d4c; }
+.save-status p { margin:0; font-size:14px; line-height:1.6; flex:1; }
+.save-status button { flex-shrink:0; font-size:14px; padding:7px 10px; }
+@media(max-width:640px) { .save-status { align-items:flex-start; flex-direction:column; gap:8px; } }
+/* Course editing follows the existing quiet, lined planner layout. */
+.timetable { grid-template-columns:65px repeat(var(--day-count,5),minmax(0,1fr)); }
+.schedule-actions { display:flex; gap:10px; flex-wrap:wrap; }
+.schedule-actions button { font-size:12px; }
+.detail-title h1 { overflow-wrap:anywhere; }
+@media(max-width:640px) {
+  .schedule-head { align-items:flex-start; flex-direction:column; }
+  .timetable { grid-template-columns:50px 1fr; }
+  .day-tabs { flex-wrap:wrap; }
+  .form-actions { flex-wrap:wrap; }
+}
+
+.schedule-empty { border-top:1px solid var(--line); padding:32px 0; }
+.schedule-empty > p:first-child { font-size:16px; margin-bottom:8px; }
+.schedule-empty .empty { padding:0; margin-bottom:16px; }
+/* Personal space title and in-place schedule management. */
+nav { justify-content:flex-end; }
+.home-title { gap:28px; align-items:center; }
+.home-title .space-heading { text-align:left; min-width:0; flex:1; }
+.home-title h1 { font-size:clamp(36px,4.8vw,68px); line-height:1.15; letter-spacing:-.04em; overflow-wrap:anywhere; }
+.home-title .edit-name { font-size:11px; margin-top:12px; color:var(--muted); }
+.space-tagline { flex-shrink:0; }
+.course-content { display:flex; flex-direction:column; gap:8px; min-height:0; flex:1; }
+.course-content > span { font-size:11px; color:#576250; }
+.course-content strong { overflow-wrap:anywhere; }
+.course-actions { display:flex; gap:6px; flex-wrap:wrap; }
+.course-actions button { font-size:11px; padding:8px; min-height:36px; }
+.manage-mode { grid-template-columns:repeat(var(--day-count,5),minmax(0,1fr)); }
+.manage-mode .time-axis { display:none; }
+.manage-mode .day-body { height:auto!important; background:none; padding:8px 5px; display:flex; flex-direction:column; gap:10px; }
+.manage-mode .course-block { position:static; height:auto!important; min-height:120px; overflow:visible; }
+@media(max-width:640px) {
+  nav { justify-content:flex-end; }
+  .home-title { align-items:flex-start; flex-direction:column; gap:14px; }
+  .home-title .space-heading { width:100%; }
+  .home-title h1 { font-size:clamp(32px,10vw,44px); }
+  .manage-mode { grid-template-columns:1fr; }
+  .course-actions { gap:10px; }
+  .course-actions button { min-height:44px; min-width:70px; font-size:12px; }
+}
+
+.course-form-actions { margin-top:24px; }
